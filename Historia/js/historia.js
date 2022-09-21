@@ -2,7 +2,19 @@ var conteudoA = "<img src='imagens/' /> <h2>O princípio...</h2> <p>No princípi
 
 var conteudoB = "<img src='imagens/' /> <h2>A carta...</h2>  <p>conteúdo da carta aqui... + audio bonitim</p> <button onclick='carregarConteudo(conteudoC)'>Continuar</button>";
 
-var conteudoC = "<img src='imagens/' />  <h2>O começo da jornada</h2> <p>Maya, após abrir a carta deixada por sua mãe, monta em seu cavalo e vai em direção ao vilarejo mais próximo.</p> \n<p>Ela compra uma suprimentos e uma espada básica para sua jornada.</p> \n<p>Ferreiro: -Você não irá muito longe só com essa espada. Vá falar com o velho sábio, ele pediu para lhe ver antes de partir.</p> \n<p>Maya então vai ao centro do vilarejo em busca do ancião.</p> \n<p>Ela  o encontra perto de um rio, já seco.</p> \n<p>Maya: - Senhor ancião, o ferreiro me pediu para te ver.</p> \n<p>Ansião: - Sim, eu queria lhe desejar boa sorte em sua jornada, e também lhe contar algo...</p> \n<p>- Existe uma arma, montanhas de skadi, que poderia ajudar muito a jovem garota. Após ouvir o que o velho tinha a dizer, maya tem duas Decisões.</p><button onclick='carregarConteudo(conteudoC3)'>Ir para a Direita</button> <button onclick='carregarConteudo(conteudoC4)'>Ir para a Esquerda</button>";
+var conteudoC = "<img src='imagens/' />  <h2>O começo da jornada</h2> <p>Maya, após abrir a carta deixada por sua mãe, monta em seu cavalo e vai em direção ao vilarejo mais próximo.</p> \n<p>Ela compra suprimentos e uma espada básica para sua jornada.</p> \n<p>Ferreiro: - Você não irá muito longe só com essa espada. Vá falar com o velho, ele pediu para lhe ver antes de partir.</p> \n<p>Maya então vai ao centro do vilarejo em busca do ancião.</p> \n<p>Ela  o encontra perto de um rio, já seco.</p> \n<p>Maya: - Senhor, o ferreiro disse que queria me ver.</p> \n<p>Ansião: - Sim, eu queria lhe desejar boa sorte em sua jornada, e também lhe contar algo...</p> \n<p>- Nas montanhas gélidas de skadi, existe uma arma, que dizem ser capaz de matar qualquer coisa. Se ela existir, o quanto não poderá te ajudar?</p> \n<p>O velho sorri, deseja-lhe boa sorte novamente e caminha a beira do rio.</p> \n<p>Após ouvir seu conselho, Maya decide:</p> <button onclick='carregarConteudo(conteudoD1)'>- Vou seguir para as montanhas de skadi e procurar pela arma.</button> <button onclick='carregarConteudo(conteudoD2)'>Vou ir direto para a capital de hefesto.</button>";
+
+var conteudoD1 = "<img src='imagens/' /> <h2>Escolha seu caminho</h2>  <p>Há uma bifurcação no caminho, para qual lado você vai?</p> <button onclick='carregarConteudo(conteudoD1Direita)'>Ir pela direita</button> <button onclick='carregarConteudo(conteudoD1Esquerda)'>Ir pela esquerda</button>";
+
+var conteudoD1Direita = "<img src='imagens/' /> <h2>Saqueadores</h2>  <p>Você é atacada por saqueadores!</p> \n<p>Maya luta bravamente, mesmo assim tem suas coisas levadas. Ela não desiste e segue os bandidos até um vulcão. Você não tem escolha a não ser atravessar esse caminho sinuoso</p> <button onclick='carregarConteudo(conteudoDVulcao)'>Ir pela direita</button>";
+
+var conteudoD1Esquerda = "<img src='imagens/' /> <h2>Calor sem precedentes</h2>  <p>O caminho escolhido dá para um vulcão, você não tem escolha a não ser atravessar esse caminho sinuoso.</p> <button onclick='carregarConteudo(conteudoDVulcao)'>Ir pela direita</button> <button onclick='carregarConteudo(conteudoC)'>Ir pela direita</button>";
+
+var conteudoDVulcao = "<img src='imagens/' /> <h2>Um ser de lava</h2>  <p>lutinha da maya com o monstro, ela derrota o bicho e libera o poder de fogo. </p> <button onclick='carregarConteudo(conteudoD1Direita)'>Ir pela direita</button>";
+
+var conteudoD2 = "<img src='imagens/' /> <h2>--</h2>  <p>--</p> <button onclick='carregarConteudo()'>--</button> <button onclick='carregarConteudo()'></button>"; 
+
+var conteudoE = "<img src='imagens/' /> <h2>Fronteiras de Hefesto</h2>  <p>Você chegou as fronteiras de hefesto</p> <button onclick='carregarConteudo()'>--</button> <button onclick='carregarConteudo()'></button>";
 
 var elemento = document.getElementById("conteudo");
 
