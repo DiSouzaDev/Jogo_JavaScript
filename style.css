@@ -327,3 +327,53 @@ black-bnt{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.portoFreya img {
+    width: 50vw;
+    height: 60vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ruina img {
+    width: 30vw;
+    height: 90vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.guardiao img {
+    width: 40vw;
+    height: 80vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.terraFreya img {
+    width: 40vw;
+    height: 100vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.reino img {
+    width: 40vw;
+    height: 100vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
